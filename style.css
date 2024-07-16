@@ -11,9 +11,6 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-.white {
-  color: #fff;
-}
 .yellow {
   color: #ff5400;
 }
@@ -30,7 +27,17 @@ body {
   color: #5a5a5d;
 }
 
-/* header nav styles */
+.btn-primary {
+  background-color: #ff5400;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* nav section */
 
 .nav-container {
   width: 90%;
@@ -61,3 +68,64 @@ body {
   font-size: 1.2rem;
   margin-left: 2rem;
 }
+
+/* banner section */
+.banner {
+  width: 90%;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 1),
+      rgba(19, 19, 24, 0)
+    ),
+    url(./images/travel-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.banner-content h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.banner-content p {
+  line-height: 26px;
+  color: #fff;
+}
+
+.banner-search {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  backdrop-filter: blur(2px);
+}
+input,
+select {
+  width: 150px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+}
+select {
+  cursor: pointer;
+}
+
+/* tour section */

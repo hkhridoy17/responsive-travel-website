@@ -289,3 +289,29 @@ select {
 }
 
 /* perfect place section */
+.mountain {
+  grid-template-columns: 0.9fr 1fr;
+  gap: 50px;
+}
+.mountain-content h2 {
+  width: 75%;
+}
+.mountain-content li {
+  font-weight: 700;
+}
+.mountain-image {
+  position: relative;
+}
+.mountain-image-title {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 250px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* newsletter section */

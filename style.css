@@ -290,7 +290,7 @@ select {
 
 /* perfect place section */
 .mountain {
-  grid-template-columns: 0.9fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
 .mountain-content h2 {
@@ -315,3 +315,45 @@ select {
 }
 
 /* newsletter section */
+.newsletter-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 50px;
+  height: 400px;
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #ff5400;
+  border-radius: 16px;
+  padding: 40px;
+}
+.newsletter-form input {
+  background-color: rgba(19, 19, 24, 0.05);
+  width: auto;
+}
+.newsletter-image {
+  background-image: url(./images/nature.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  position: relative;
+}
+.newsletter-image button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(-30deg);
+  transform-origin: bottom left;
+}
+.newsletter-image button p {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.newsletter-image button h4 {
+  font-size: 2rem;
+}
+
+/* footer section */

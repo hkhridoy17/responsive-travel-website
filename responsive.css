@@ -71,6 +71,27 @@
     width: 80%;
     grid-template-rows: repeat(5, 1fr);
   }
+
+  /* perfect place section */
+  /* responsive done by tour section */
+
+  /* newsletter section */
+  .newsletter-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 300px;
+  }
+  .newsletter-form {
+    padding: 20px;
+    gap: 20px;
+  }
+  .newsletter-image button p {
+    font-size: 1rem;
+  }
+  .newsletter-image button h4 {
+    font-size: 1.25rem;
+  }
+
+  /* footer section */
 }
 
 /* Small Devices */

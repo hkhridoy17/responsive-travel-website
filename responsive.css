@@ -1,31 +1,72 @@
 /* Extra Small Devices */
-@media (max-width: 576px) {
-  .nav-container {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+@media screen and (max-width: 576px) {
+  /* common styles */
+  .nav-container,
+  .banner,
+  .banner-content {
+    width: 95%;
+  }
+  .section-title {
+    font-size: 2rem;
   }
 
+  /* nav section */
   .nav-menu {
-    flex-direction: column;
-    gap: 20px;
+    display: none;
   }
+  .nav-menu-bar {
+    display: block;
+    font-size: 2rem;
+  }
+
+  /* banner section */
+  .banner {
+    padding: 50px 0;
+  }
+  .banner-content h2 {
+    font-size: 2rem;
+  }
+  .banner-search {
+    width: 70%;
+    flex-direction: column;
+  }
+  input,
+  select,
+  button {
+    width: 95%;
+  }
+
+  /* tour section */
+  .tour {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  /* destination section */
+  .destination-cards-row1,
+  .destination-cards-row2,
+  .destination-cards-row3 {
+    grid-template-columns: 1fr;
+  }
+  .country-card img {
+    height: 200px;
+  }
+
+  /* quality section */
 }
 
 /* Small Devices */
-@media (min-width: 576.02px) and (max-width: 768px) {
+@media screen and (min-width: 576.02px) and (max-width: 768px) {
 }
 
 /* Medium Devices */
-@media (min-width: 768.02px) and (max-width: 992px) {
+@media screen and (min-width: 768.02px) and (max-width: 992px) {
 }
 
 /* Large Devices */
-@media (min-width: 992.02px) and (max-width: 1200px) {
+@media screen and (min-width: 992.02px) and (max-width: 1200px) {
 }
 
 /* Extra Large Devices */
-@media (min-width: 1200.02px) {
+@media screen and (min-width: 1200.02px) {
 }

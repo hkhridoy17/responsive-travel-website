@@ -53,6 +53,15 @@
   }
 
   /* quality section */
+  .quality-card-row1,
+  .quality-card-row2 {
+    grid-template-columns: 1fr;
+  }
+  .quality-card-row2 {
+    width: 100%;
+  }
+
+  /* discount section */
 }
 
 /* Small Devices */

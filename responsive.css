@@ -1,4 +1,4 @@
-/* Extra Small Devices */
+/* Responsive for Small Devices */
 @media screen and (max-width: 576px) {
   /* common styles */
   .nav-container,
@@ -78,7 +78,7 @@
   /* newsletter section */
   .newsletter-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 300px;
+    grid-template-rows: 1fr 1fr;
   }
   .newsletter-form {
     padding: 20px;
@@ -92,20 +92,15 @@
   }
 
   /* footer section */
+  .footer-content {
+    width: 90%;
+  }
 }
 
-/* Small Devices */
-@media screen and (min-width: 576.02px) and (max-width: 768px) {
+/* Responsive for Medium Devices */
+@media screen and (min-width: 576.02px) and (max-width: 992px) {
 }
 
-/* Medium Devices */
-@media screen and (min-width: 768.02px) and (max-width: 992px) {
-}
-
-/* Large Devices */
-@media screen and (min-width: 992.02px) and (max-width: 1200px) {
-}
-
-/* Extra Large Devices */
-@media screen and (min-width: 1200.02px) {
+/* Responsive for Large Devices */
+@media screen and (min-width: 992.02px) {
 }
